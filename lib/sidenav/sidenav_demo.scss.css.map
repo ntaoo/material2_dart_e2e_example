@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,oBAAqB;EACnB,MAAM,EAAE,eAAe;EAEvB,+BAAW;IACT,OAAO,EAAE,IAAI;;AAIjB,qBAAsB;EACpB,OAAO,EAAE,IAAI",
+"sources": ["sidenav_demo.scss"],
+"names": [],
+"file": "sidenav_demo.scss.css"
+}

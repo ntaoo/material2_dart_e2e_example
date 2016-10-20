@@ -1,0 +1,28 @@
+name: material2_dart_e2e_example
+version: 0.4.0
+author: ntaoo <ntaoo.g@gmail.com>
+homepage: https://github.com/ntaoo/material2_dart
+environment:
+  sdk: '>=1.19.0 <2.0.0'
+dependencies:
+  angular2: 2.0.0-beta.22
+  material2_dart: ^0.4.0
+  dart_to_js_script_rewriter: ^0.1.0
+dev_dependencies:
+  browser: ^0.10.0
+  sass_transformer: any
+transformers:
+- sass_transformer
+- angular2:
+    platform_directives:
+    - 'package:angular2/common.dart#CORE_DIRECTIVES'
+    - 'package:angular2/common.dart#FORM_DIRECTIVES'
+    entry_points: web/main.dart
+- dart_to_js_script_rewriter
+- $dart2js:
+    minify: true
+    commandLineOptions:
+    - --enable-experimental-mirrors
+    - --trust-type-annotations
+    - --trust-primitives
+    - --show-package-warnings

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,eAAgB;EACd,MAAM,EAAE,iBAAiB;EACzB,8BAAe;IACb,UAAU,EAAE,OAAO;EAErB,4BAAa;IACX,OAAO,EAAE,IAAI",
+"sources": ["tab_group_demo.scss"],
+"names": [],
+"file": "tab_group_demo.scss.css"
+}

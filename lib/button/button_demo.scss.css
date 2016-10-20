@@ -1,0 +1,12 @@
+.demo-button button, .demo-button a {
+  margin: 8px;
+  text-transform: uppercase; }
+.demo-button section {
+  display: flex;
+  align-items: center;
+  background-color: #f7f7f7;
+  margin: 8px; }
+.demo-button p {
+  padding: 5px 15px; }
+
+/*# sourceMappingURL=button_demo.scss.css.map */
