@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,YAAa;EACX,MAAM,EAAE,GAAG;EACX,cAAc,EAAE,SAAS;;AAG3B,aAAc;EACZ,gBAAgB,EAAE,OAAO;EACzB,MAAM,EAAE,GAAG;EACX,OAAO,EAAE,IAAI;EAEb,6BAAgB;IACd,MAAM,EAAE,GAAG",
-"sources": ["radio_demo.scss"],
-"names": [],
-"file": "radio_demo.scss.css"
-}

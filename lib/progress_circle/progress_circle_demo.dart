@@ -4,7 +4,7 @@ import "package:material2_dart/material.dart";
 @Component(
     selector: "progress-circle-demo",
     templateUrl: "progress_circle_demo.html",
-    styleUrls: const ["progress_circle_demo.scss.css"],
+    styleUrls: const ["progress_circle_demo.css"],
     directives: const [MdProgressCircle, MdSpinner, MdButton])
 class ProgressCircleDemo {
   num progressValue = 40;

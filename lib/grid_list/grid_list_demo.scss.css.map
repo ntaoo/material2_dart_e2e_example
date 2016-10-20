@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,eAAgB;EACd,KAAK,EAAE,MAAM;EAEb,uBAAQ;IACN,MAAM,EAAE,MAAM;EAGhB,iBAAE;IACA,MAAM,EAAE,IAAI;EAGd,6CAA8B;IAC5B,UAAU,EAAE,mBAAmB;EAGjC,mBAAI;IACF,KAAK,EAAE,KAAK",
-"sources": ["grid_list_demo.scss"],
-"names": [],
-"file": "grid_list_demo.scss.css"
-}

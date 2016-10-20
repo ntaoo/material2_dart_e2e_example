@@ -5,7 +5,7 @@ import "package:material2_dart/material.dart";
 @Component(
     selector: 'switch-demo',
     templateUrl: 'slide_toggle_demo.html',
-    styleUrls: const ['slide_toggle_demo.scss.css'],
+    styleUrls: const ['slide_toggle_demo.css'],
     directives: const [MdSlideToggle])
 class SlideToggleDemo {
   bool firstToggle = false;

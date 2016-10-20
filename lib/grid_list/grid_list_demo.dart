@@ -5,7 +5,7 @@ import "package:material2_dart/material.dart";
     selector: "grid-list-demo",
     templateUrl: "grid_list_demo.html",
     styleUrls: const [
-      "grid_list_demo.scss.css"
+      "grid_list_demo.css"
     ],
     directives: const [
       MD_GRID_LIST_DIRECTIVES,

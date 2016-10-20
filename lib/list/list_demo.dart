@@ -4,7 +4,7 @@ import "package:material2_dart/material.dart";
 @Component(
     selector: "list-demo",
     templateUrl: "list_demo.html",
-    styleUrls: const ["list_demo.scss.css"],
+    styleUrls: const ["list_demo.css"],
     directives: const [MD_LIST_DIRECTIVES, MdButton, MdIcon])
 class ListDemo {
   List<String> items = ["Pepper", "Salt", "Paprika"];

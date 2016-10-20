@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,aAAc;EACZ,OAAO,EAAE,GAAG;EAEZ,gCAAmB;IACjB,OAAO,EAAE,MAAM;EAGjB,kCAAqB;IACnB,IAAI,EAAE,QAAQ",
-"sources": ["toolbar_demo.scss"],
-"names": [],
-"file": "toolbar_demo.scss.css"
-}

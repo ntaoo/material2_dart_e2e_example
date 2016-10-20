@@ -4,7 +4,7 @@ import "package:material2_dart/material.dart";
 @Component(
     selector: "portal-demo",
     templateUrl: "portal_demo.html",
-    styleUrls: const ["portal_demo.scss.css"],
+    styleUrls: const ["portal_demo.css"],
     directives: const [TemplatePortalDirective, PortalHostDirective])
 class PortalDemo {
   @ViewChildren(TemplatePortalDirective)

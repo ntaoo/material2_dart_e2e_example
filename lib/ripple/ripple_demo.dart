@@ -5,7 +5,7 @@ import "package:material2_dart/material.dart";
 @Component(
   selector: 'ripple-demo',
   templateUrl: 'ripple_demo.html',
-  styleUrls: const ['ripple_demo.scss.css'],
+  styleUrls: const ['ripple_demo.css'],
   providers: const [MdUniqueSelectionDispatcher],
   directives: const <dynamic>[
     MD_BUTTON_DIRECTIVES,

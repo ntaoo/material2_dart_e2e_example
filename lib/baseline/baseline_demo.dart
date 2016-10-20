@@ -5,7 +5,7 @@ import "package:material2_dart/material.dart";
     selector: "baseline-demo",
     templateUrl: "baseline_demo.html",
     styleUrls: const [
-      "baseline_demo.scss.css"
+      "baseline_demo.css"
     ],
     providers: const [
       MdUniqueSelectionDispatcher

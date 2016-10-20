@@ -39,7 +39,7 @@ class Home {}
 @Component(
   selector: 'demo-app',
   templateUrl: 'demo_app.html',
-  styleUrls: const ['demo_app.scss.css'],
+  styleUrls: const ['demo_app.css'],
   providers: const [
     ROUTER_PROVIDERS,
     MdLiveAnnouncer,

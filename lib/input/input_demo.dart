@@ -6,7 +6,7 @@ int max = 5;
     selector: "input-demo",
     templateUrl: "input_demo.html",
     styleUrls: const [
-      "input_demo.scss.css"
+      "input_demo.css"
     ],
     directives: const [
       MdCard,

@@ -4,6 +4,6 @@ import "package:material2_dart/material.dart";
 @Component(
     selector: "toolbar-demo",
     templateUrl: "toolbar_demo.html",
-    styleUrls: const ["toolbar_demo.scss.css"],
+    styleUrls: const ["toolbar_demo.css"],
     directives: const [MdToolbar, MdIcon])
 class ToolbarDemo {}

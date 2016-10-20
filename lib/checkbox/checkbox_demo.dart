@@ -56,7 +56,7 @@ class MdCheckboxDemoNestedChecklist {
     selector: "md-checkbox-demo",
     templateUrl: "checkbox_demo.html",
     styleUrls: const [
-      "checkbox_demo.scss.css"
+      "checkbox_demo.css"
     ],
     directives: const [
       MdCheckbox,

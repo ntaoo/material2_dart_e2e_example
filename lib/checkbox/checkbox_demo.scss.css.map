@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,gBAAiB;EACf,MAAM,EAAE,KAAK",
-"sources": ["checkbox_demo.scss"],
-"names": [],
-"file": "checkbox_demo.scss.css"
-}

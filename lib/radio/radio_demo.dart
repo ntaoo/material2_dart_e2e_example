@@ -4,7 +4,7 @@ import "package:material2_dart/material.dart";
 @Component(
     selector: "radio-demo",
     templateUrl: "radio_demo.html",
-    styleUrls: const ["radio_demo.scss.css"],
+    styleUrls: const ["radio_demo.css"],
     providers: const [MdUniqueSelectionDispatcher],
     directives: const [MdCheckbox, MdRadioButton, MdRadioGroup])
 class RadioDemo {

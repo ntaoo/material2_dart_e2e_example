@@ -4,7 +4,7 @@ import "package:material2_dart/material.dart";
 @Component(
     selector: "progress-bar-demo",
     templateUrl: "progress_bar_demo.html",
-    styleUrls: const ["progress_bar_demo.scss.css"],
+    styleUrls: const ["progress_bar_demo.css"],
     directives: const [MdProgressBar, MdButton])
 class ProgressBarDemo {
   num determinateProgressValue = 30;

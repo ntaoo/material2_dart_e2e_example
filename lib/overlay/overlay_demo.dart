@@ -5,7 +5,7 @@ import "package:material2_dart/material.dart";
 @Component(
     selector: "overlay-demo",
     templateUrl: "overlay_demo.html",
-    styleUrls: const ["overlay_demo.scss.css"],
+    styleUrls: const ["overlay_demo.css"],
     directives: const [PORTAL_DIRECTIVES, OVERLAY_DIRECTIVES],
     providers: const [OVERLAY_PROVIDERS],
     encapsulation: ViewEncapsulation.None)

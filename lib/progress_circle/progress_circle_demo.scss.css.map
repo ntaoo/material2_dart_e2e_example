@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,qBAAsB;EACpB,KAAK,EAAE,IAAI;EAEX;kCACW;IACT,OAAO,EAAE,YAAY",
-"sources": ["progress_circle_demo.scss"],
-"names": [],
-"file": "progress_circle_demo.scss.css"
-}

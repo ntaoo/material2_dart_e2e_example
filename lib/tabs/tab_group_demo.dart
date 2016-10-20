@@ -6,7 +6,7 @@ import "package:material2_dart/material.dart";
 @Component(
     selector: "tab-group-demo",
     templateUrl: "tab_group_demo.html",
-    styleUrls: const ["tab_group_demo.scss.css"],
+    styleUrls: const ["tab_group_demo.css"],
     directives: const <dynamic>[MD_TABS_DIRECTIVES, MdToolbar, MdInput],
     pipes: const [AsyncPipe],
     encapsulation: ViewEncapsulation.None)
