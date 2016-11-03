@@ -1,12 +1,12 @@
 name: material2_dart_e2e_example
-version: 0.4.0
+version: 0.4.1
 author: ntaoo <ntaoo.g@gmail.com>
 homepage: https://github.com/ntaoo/material2_dart
 environment:
   sdk: '>=1.19.0 <2.0.0'
 dependencies:
-  angular2: 2.0.0-beta.22
-  material2_dart: ^0.4.0
+  angular2: ^2.0.0
+  material2_dart: ^0.4.1    
   dart_to_js_script_rewriter: ^0.1.0
 dev_dependencies:
   browser: ^0.10.0
