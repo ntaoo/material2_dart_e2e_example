@@ -1,75 +1,14 @@
 <md-sidenav-layout class="demo-root" fullscreen>
   <md-sidenav #start>
     <md-nav-list>
-      <!-- FIXME(ntaoo) For some reason, a[md-list-item] disposes its text content probably when routerLink property of router on beta.17 is set. (For instance, `<a md-list-item [routerLink]="['Name']">Name</a>`, `Name` disappears.) Nav lists demo works fine. So I wait for ng2 updated to greater than rc2 with new router. -->
-      <a md-list-item href="https://github.com/ntaoo/material2_dart/issues/29">
-        See#29
+      <a *ngFor="let navItem of navItems"
+         md-list-item
+         (click)="start.close()"
+         [routerLink]="[navItem['route']]">
+        {{navItem['name']}}
       </a>
-
-      <md-list-item>
-        <a [routerLink]="['Button']">Button</a>
-      </md-list-item>
-      <md-list-item>
-      <a [routerLink]="['ButtonToggle']">Button Toggle</a>
-      </md-list-item>
-      <md-list-item>
-        <a [routerLink]="['Card']">Card</a>
-      </md-list-item>
-      <md-list-item>
-        <a [routerLink]="['Checkbox']">Checkbox</a>
-      </md-list-item>
-      <md-list-item>
-        <a [routerLink]="['GridList']">Grid List</a>
-      </md-list-item>
-      <md-list-item>
-        <a [routerLink]="['Icon']">Icon</a>
-      </md-list-item>
-      <md-list-item>
-        <a [routerLink]="['Input']">Input</a>
-      </md-list-item>
-      <md-list-item>
-        <a [routerLink]="['List']">List</a>
-      </md-list-item>
-      <md-list-item>
-        <a [routerLink]="['LiveAnnouncer']">Live Announcer</a>
-      </md-list-item>
-      <md-list-item>
-        <a [routerLink]="['Overlay']">Overlay</a>
-      </md-list-item>
-      <md-list-item>
-        <a [routerLink]="['Portal']">Portal</a>
-      </md-list-item>
-      <md-list-item>
-        <a [routerLink]="['ProgressBar']">Progress Bar</a>
-      </md-list-item>
-      <md-list-item>
-        <a [routerLink]="['ProgressCircle']">Progress Circle</a>
-      </md-list-item>
-      <md-list-item>
-        <a [routerLink]="['Radio']">Radio</a>
-      </md-list-item>
-      <md-list-item>
-        <a [routerLink]="['Ripple']">Ripple</a>
-      </md-list-item>
-      <md-list-item>
-        <a [routerLink]="['Sidenav']">Sidenav</a>
-      </md-list-item>
-      <md-list-item>
-        <a [routerLink]="['Slider']">Slider</a>
-      </md-list-item>
-      <md-list-item>
-        <a [routerLink]="['SlideToggle']">Slide Toggle</a>
-      </md-list-item>
-      <md-list-item>
-        <a [routerLink]="['Tabs']">Tabs</a>
-      </md-list-item>
-      <md-list-item>
-        <a [routerLink]="['Toolbar']">Toolbar</a>
-      </md-list-item>
       <hr>
-      <md-list-item>
-        <a [routerLink]="['Baseline']">Baseline</a>
-      </md-list-item>
+      <a md-list-item (click)="start.close()" [routerLink]="['Baseline']">Baseline</a>
     </md-nav-list>
     <button md-button (click)="start.close()">CLOSE</button>
   </md-sidenav>

@@ -94,5 +94,28 @@ class Home {}
 class DemoApp {
   Router router;
 
+  final List navItems = [
+    {'name': 'Button', 'route': 'Button'},
+    {'name': 'Button Toggle', 'route': 'ButtonToggle'},
+    {'name': 'Card', 'route': 'Card'},
+    {'name': 'Checkbox', 'route': 'Checkbox'},
+    {'name': 'Grid List', 'route': 'GridList'},
+    {'name': 'Icon', 'route': 'Icon'},
+    {'name': 'Input', 'route': 'Input'},
+    {'name': 'List', 'route': 'List'},
+    {'name': 'Live Announcer', 'route': 'LiveAnnouncer'},
+    {'name': 'Overlay', 'route': 'Overlay'},
+    {'name': 'Portal', 'route': 'Portal'},
+    {'name': 'Progress Bar', 'route': 'ProgressBar'},
+    {'name': 'Progress Circle', 'route': 'ProgressCircle'},
+    {'name': 'Radio', 'route': 'Radio'},
+    {'name': 'Ripple', 'route': 'Ripple'},
+    {'name': 'Sidenav', 'route': 'Sidenav'},
+    {'name': 'Slider', 'route': 'Slider'},
+    {'name': 'Slide Toggle', 'route': 'SlideToggle'},
+    {'name': 'Tabs', 'route': 'Tabs'},
+    {'name': 'Toolbar', 'route': 'Toolbar'},
+  ];
+
   DemoApp(this.router);
 }
