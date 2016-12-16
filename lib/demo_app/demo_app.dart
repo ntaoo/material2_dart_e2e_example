@@ -44,7 +44,6 @@ class Home {}
     ROUTER_PROVIDERS,
     MdLiveAnnouncer,
     MdIconRegistry,
-    Renderer
   ],
   directives: const [
     ROUTER_DIRECTIVES,
