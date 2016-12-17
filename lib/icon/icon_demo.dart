@@ -12,9 +12,9 @@ class IconDemo {
   IconDemo(MdIconRegistry mdIconRegistry) {
     mdIconRegistry
         .addSvgIcon("thumb-up",
-            "/packages/material2_dart_example/icon/assets/thumbup_icon.svg")
+            "/packages/material2_dart_e2e_example/icon/assets/thumbup_icon.svg")
         .addSvgIconSetInNamespace("core",
-            "/packages/material2_dart_example/icon/assets/core_icon_set.svg")
+            "/packages/material2_dart_e2e_example/icon/assets/core_icon_set.svg")
         .registerFontClassAlias("fontawesome", "fa");
   }
 }
