@@ -56,6 +56,17 @@ class OverlayDemo {
         await overlay.create(new OverlayState()..positionStrategy = strategy);
     await ref.attach(new ComponentPortal(SpagettiPanel, viewContainerRef));
   }
+
+  Future<Null> openPanelWithBackdrop() async {
+    var config = new OverlayState()
+      ..positionStrategy = overlay.position().global().centerHorizontally()
+      ..hasBackdrop = true
+      ..backdropClass = 'md-overlay-transparent-backdrop';
+
+    OverlayRef overlayRef = await overlay.create(config);
+    await overlayRef.attach(templatePortals.first);
+    overlayRef.backdropClick.listen((_) => overlayRef.detach());
+  }
 }
 
 /// Simple component to load into an overlay

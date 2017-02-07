@@ -28,6 +28,7 @@ class InputDemo {
     {"value": 40},
     {"value": 50}
   ];
+  int rows = 8;
 
   void addABunch(num n) {
     for (var x = 0; x < n; x++) {

@@ -25,7 +25,7 @@ import '../sidenav/sidenav_demo.dart';
 import '../slider/slider_demo.dart';
 import '../slide_toggle/slide_toggle_demo.dart';
 import '../toolbar/toolbar_demo.dart';
-import '../tabs/tab_group_demo.dart';
+import '../tabs/tabs_demo.dart';
 import '../ripple/ripple_demo.dart';
 
 @Component(
@@ -42,7 +42,7 @@ class Home {}
   styleUrls: const ['demo_app.css'],
   providers: const [
     ROUTER_PROVIDERS,
-    MdLiveAnnouncer,
+    a11yProviders,
     MdIconRegistry,
   ],
   directives: const [
@@ -89,7 +89,7 @@ class Home {}
   const Route(path: '/slider', name: 'Slider', component: SliderDemo),
   const Route(path: '/sidenav', name: 'Sidenav', component: SidenavDemo),
   const Route(path: '/toolbar', name: 'Toolbar', component: ToolbarDemo),
-  const Route(path: '/tabs', name: 'Tabs', component: TabsDemo)
+  const Route(path: '/tabs/...', name: 'Tabs', component: TabsDemo)
 ])
 class DemoApp {
   Router router;

@@ -6,7 +6,10 @@ environment:
   sdk: '>=1.19.1 <2.0.0'
 dependencies:
   angular2: ^2.2.0
-  material2_dart: ^0.4.3
+  material2_dart:
+    git:
+      url: https://github.com/ntaoo/material2_dart
+      ref: master
   dart_to_js_script_rewriter: ^0.1.0
 dev_dependencies:
   browser: ^0.10.0

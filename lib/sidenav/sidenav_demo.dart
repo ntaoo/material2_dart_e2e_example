@@ -6,4 +6,6 @@ import "package:material2_dart/material.dart";
     templateUrl: "sidenav_demo.html",
     styleUrls: const ["sidenav_demo.css"],
     directives: const [MD_SIDENAV_DIRECTIVES, MdButton])
-class SidenavDemo {}
+class SidenavDemo {
+  String side = 'start';
+}

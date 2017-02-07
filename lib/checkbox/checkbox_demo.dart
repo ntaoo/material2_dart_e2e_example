@@ -68,6 +68,7 @@ class CheckboxDemo {
   bool isChecked = false;
   bool isDisabled = false;
   String alignment = "start";
+  bool useAlternativeColor = false;
 
   String printResult() {
     if (isIndeterminate) {
@@ -75,4 +76,6 @@ class CheckboxDemo {
     }
     return isChecked ? "Yes!" : "No!";
   }
+  
+  String checkboxColor() => useAlternativeColor ? 'primary' : 'accent';
 }
